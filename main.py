@@ -18,7 +18,7 @@ file_name = '/home/user/Desktop/lunch/test.png'
 
 response = client.conversations_join(channel="C06K6M8FTRD")
 
-@app.get("/")
+@app.post("/")
 async def root():
     try:
         req = urllib.request.Request(url_thej)
